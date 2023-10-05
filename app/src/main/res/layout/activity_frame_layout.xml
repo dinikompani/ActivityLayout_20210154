@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinearFrameLayout">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/st" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="60dp"
+        android:layout_height="83dp"
+        android:layout_gravity="left|center"
+        app:srcCompat="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="51dp"
+        android:layout_height="27dp"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/logost" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="168dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/alegreya"
+        android:text="A NETFLIX ORIGINAL SERIES"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/arapey"
+        android:text="OCT 27"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/st2" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="60dp"
+        android:layout_height="83dp"
+        android:layout_gravity="right|center"
+        app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+</FrameLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="nama">Enter Your Name</string>
+    <string name="phone">Enter Your Phone Number</string>
+    <string name="add">Enter Your Address</string>
+</resources>
